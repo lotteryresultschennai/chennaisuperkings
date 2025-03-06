@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK Lottery Results</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="logo.png" alt="CSK Logo" class="logo">
+        <h1>CSK Lottery Results</h1>
+<div class="past-results">
+    <h2>Past Results</h2>
+    <table id="results-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Draw Time</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody id="results-body">
+            <!-- Past results will be inserted here dynamically -->
+        </tbody>
+    </table>
+</div>
+        <div class="countdown">
+            <h2>Next Draw In:</h2>
+            <p id="timer">Loading...</p>
+        </div>
+
+        <div class="lottery-box">
+            <h2>Winning Numbers:</h2>
+            <div class="roller">
+                <span id="digit1">0</span>
+                <span id="digit2">0</span>
+                <span id="digit3">0</span>
+                <span id="digit4">0</span>
+                <span id="digit5">0</span>
+                <span id="digit6">0</span>
+            </div>
+            <p id="result-text">Awaiting Results...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
